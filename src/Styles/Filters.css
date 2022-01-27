@@ -1,0 +1,101 @@
+.contenedorMenu {
+  position: absolute;
+  width: 1176px;
+  height: 74px;
+  left: 132px;
+  top: 556px;
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.cantidadProductos {
+  position: absolute;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: -0.15px;
+  color: #616161;
+}
+
+.lineFilter1 {
+  position: absolute;
+  left: 16.5%;
+  right: 83.42%;
+  top: 0%;
+  bottom: 33.78%;
+  background: #d9d9d9;
+}
+
+.ordenLista {
+  position: absolute;
+  height: 48px;
+  left: 18.62%;
+  right: 74.83%;
+  top: calc(50% - 48px / 2 - 12px);
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: -0.15px;
+  color: #a3a3a3;
+}
+
+button.btn1 {
+  /*width: 162px;*/
+  height: 48px;
+  background: #e9e8e8;
+  border-radius: 20.5px;
+  cursor: pointer;
+  border: none;
+  font-size: 23px;
+  line-height: 48px;
+  color: #a3a3a3;
+  margin-left: 320px;
+  margin-right: 24px;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+button.btn1:active {
+  background: #0ad4fa;
+  color: #ffffff;
+}
+
+button.btn2 {
+  /*width: 172px;*/
+  height: 48px;
+  background: #e9e8e8;
+  border-radius: 20.5px;
+  cursor: pointer;
+  border: none;
+  font-size: 23px;
+  line-height: 48px;
+  color: #a3a3a3;
+  margin-right: 24px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+button.btn2:active {
+  background: #0ad4fa;
+  color: #ffffff;
+}
+
+button.arrowLeft {
+  height: 48px;
+  margin-left: 163px;
+  margin-right: -155px;
+  background-color: #f2f2f2;
+}
+
+.lineFilter2 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 98.65%;
+  bottom: 0%;
+  background: #d9d9d9;
+}
+
+

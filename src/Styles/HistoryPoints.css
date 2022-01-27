@@ -1,0 +1,46 @@
+.contenedorHistorial {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+}
+
+.tituloHistorial {
+  margin-top: 33px;
+  margin-bottom: 33px;
+  font-size: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 55%;
+  margin-left: 336px;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddddddd1;
+}
+
+.contenedorBotones {
+  display: flex;
+  margin-left: 900px;
+  margin-top: 60px;
+}
+
+button.arrowLeft {
+  height: 48px;
+  margin-left: 163px;
+  margin-right: -160px;
+  background-color: #f2f2f2;
+}
+
+button.arrowRight {
+  margin-left: 163px;
+  background-color: #f2f2f2;
+}

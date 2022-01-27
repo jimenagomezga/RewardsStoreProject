@@ -1,0 +1,56 @@
+.contenedorPrincipal {
+  height: 1395px;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-left: 132px;
+  padding-right: 132px;
+}
+
+.contenedorCard {
+  width: 1176px;
+  height: 1188px;
+  margin-top: 101px;
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  /*justify-content: space-between;*/
+  justify-content: space-around;
+  align-content: flex-start;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.lineFilter3 {
+  background: #d9d9d9;
+  width: 1176px;
+  height: 1px;
+  margin-top: 24px;
+}
+
+.cantidadProductosR {
+  position: absolute;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: -0.15px;
+  color: #616161;
+  margin-top: 60px;
+}
+
+.contenedorBotones {
+  display: flex;
+  margin-left: 900px;
+  margin-top: 60px;
+}
+
+button.arrowLeft {
+  height: 48px;
+  margin-left: 163px;
+  margin-right: -160px;
+  background-color: #f2f2f2;
+}
+
+button.arrowRight {
+  margin-left: 163px;
+  background-color: #f2f2f2;
+}

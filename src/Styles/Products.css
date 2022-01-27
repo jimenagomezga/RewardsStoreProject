@@ -1,0 +1,147 @@
+.cardProduct {
+  width: 276px;
+  height: 276px;
+  padding-top: 12px;
+  background: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.contenedorFoto {
+  display: flex;
+  width: 252px;
+  height: 182px;
+  margin-left: 12px;
+  margin-right: 12px;
+  background: #ffffff;
+  z-index: 2;
+}
+
+.imagenProducto {
+  margin-top: 0px;
+}
+
+.lineaDescripcion {
+  height: 1px;
+  margin-left: 24px;
+  margin-right: 24px;
+  background: #d9d9d9;
+}
+
+.descripcion {
+  height: 64px;
+  margin-bottom: 18px;
+  padding-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  z-index: 4;
+}
+
+.descripcionCategoria {
+  font-weight: normal;
+  font-size: 16px;
+  color: #a3a3a3;
+  text-align: left;
+}
+
+.descripcionNombre {
+  font-weight: normal;
+  font-size: 18px;
+  color: #616161;
+  text-align: left;
+}
+
+.iconBuyBlue {
+  width: 42px;
+  height: 42px;
+  margin-left: -42px;
+}
+
+.transicionTransparencia {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all 0.5s;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 212, 250, 0.86) 0%,
+    rgba(37, 187, 241, 0.86) 100%
+  );
+  transform: translateX(-100%);
+}
+
+.cardProduct:hover .transicionTransparencia,
+.cardProduct:active .transicionTransparencia {
+  transform: translateX(0%);
+}
+
+.iconoBuyWhite {
+  margin-top: -122px;
+  margin-left: 213px;
+}
+
+.contendorPrecio {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+.precioTransicion {
+  height: 45px;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 9px;
+}
+
+button.botonRedeem {
+  position: absolute;
+  height: 42px;
+  width: 228px;
+  margin-top: 157px;
+  margin-left: 24px;
+  margin-right: 24px;
+  top: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20.5px;
+  font-size: 18px;
+  line-height: 23px;
+  background: #ffffff;
+  padding-left: 63px;
+}
+
+.monedasFaltantes {
+  position: absolute;
+  height: 42px;
+  width: 142px;
+  background: #adacac;
+  margin-top: -265px;
+  margin-left: 122px;
+  border-radius: 100px;
+  color: #ffffff;
+  padding-top: 11px;
+  padding-right: 3px;
+  padding-left: 15px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.monedasF {
+  height: 27px;
+  margin-top: -3px;
+}
